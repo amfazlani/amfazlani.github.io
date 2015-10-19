@@ -1,0 +1,46 @@
+body {
+    font-size: 20px;
+    background-color: purple
+
+}
+
+
+img {
+  height: 10em;
+  width: 10em;
+}
+
+ul {
+    list-style-type: none;
+    padding: none;
+    font-size: 50px;
+
+    text-align: center;
+
+
+
+}
+
+p {
+
+font-weight: bold;
+text-align: center;
+background-color: green
+
+}
+
+h2 {
+text-align: center;
+background-color: orange;
+
+}
+
+h3 {
+font-size: 100px;
+text-align: center;
+}
+
+li {
+  display: inline;
+  font-background: green;
+}
