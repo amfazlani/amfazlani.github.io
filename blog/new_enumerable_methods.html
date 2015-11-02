@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog #4</title>
+</head>
+<body>
+<nav>
+  <ul>
+  <li><a href="#"> Projects </li> </a>
+  <li><a href="#"> About Me </li> </a>
+  <li><a href="#"> amfazlani@github.io </li> </a>
+  <li><a href="#"> Contact Me </li> </a>
+  <li><a href="#"> Facebook Twitter Linkedin </li> </a>
+  <li><a href="#"> My Blogs </li> </a>
+  </ul>
+</nav>
+<h1>MY BLOGS</h1>
+<h2>Learning About Enumearble Methods!</h2>
+<h3>November 2, 2015</h3>
+<p>
+  In this blog post, I want to explain the enumearable method by the name of Enumerable#group_by. This method is especially useful if you wish to perform certain mathematical operations and sort your data of results. By calling group_by on a range such as (1..10) followed by a block of code such as {{|i| i%3}} you are returned a Hash of key value pairs based on the mathematical calculation, with the keys being the result of the operation and the values being the numbers in the range that resulted in that result.
+</p>
+<p>
+  Lets use an example to better explain this. Consider the following dilemma: You want to perform a certain action over the numbers in the range of 1 up to 100. The action is a mathematical action which take each number and adds 2 to that number. The result of that number is then multiplied by 3. It sounds kind of tedious to do this to each number from 1 to 100 doesn't it? This is where the ennumerable method group_by is so useful. By typing the following (1..100).group_by {|i| (i+2) * 3}, you will get a very easy to read Hash which shows all the results of the computation as keys and the specific numbers that gave that result in a corresponding array as the value. Next time that you want to perform a series of mathematical actions over a range of numbers, sorty_by should be the first method to come to mind!
+</p>
+<footer>
+  Written by Amaar Fazlani
+</footer>
+</body>
